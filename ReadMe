@@ -1,0 +1,24 @@
+Chap03 - Working with Files:
+
+simple_write.c - Using write.
+
+simple_read.c  - Using read and write.
+
+copy_system.c  - Uses low-level system calls to copy one file to
+                 another.
+
+copy_block.c   - Improved version of copy_system.c, which copies 
+                 blocks of data between the files.
+
+copy_stdio.c   - Uses library calls to further improve the speed
+                 of the above programs, by buffering the file input 
+                 and output.
+
+printdir.c     - Print out the contents of your home directory 
+                 (which you should write into the relevant parts of main).
+
+printdir2.c    - Improved version of the above that takes the directory
+                 as an argument.
+
+mmap_eg.c      - Needs Linux 2.0. Maps a file into memory as an array and
+                 then alters its contents.
