@@ -22,3 +22,8 @@ printdir2.c    - Improved version of the above that takes the directory
 
 mmap_eg.c      - Needs Linux 2.0. Maps a file into memory as an array and
                  then alters its contents.
+
+//Thu Sep 29 22:00:17 AEST 2016 
+// also chmod =644 <filename>
+// also create makefile to build all the sources
+
