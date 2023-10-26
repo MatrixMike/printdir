@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <sys/mman.h>
 #include <fcntl.h>
+#include <stdlib.h>
 
 typedef struct {
 	int integer;

@@ -3,6 +3,7 @@
 #include <dirent.h>
 #include <string.h>
 #include <sys/stat.h>
+#include <stdlib.h>
 
 void printdir(char *dir, int depth)
 {
